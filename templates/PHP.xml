@@ -1,0 +1,37 @@
+<templateSet group="PHP">
+  <template name="xlog" value="\Log::addWarning(&quot;$Name$: &quot;, $Name$);&#10;\Log::debug(&quot;$Name$: &quot; .$Name$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="xthis" value="$this-&gt;" description="$this-&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="xxthis" value="$this-&gt;$clipboard$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="44" value="$$CURSOR$;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="xroute" value="Route::get('/sam', function(){&#10;    $DEFINICOES$&#10;});" description="Rota dummy" toReformat="false" toShortenFQNames="true">
+    <variable name="DEFINICOES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="xdd" value="dd($CLIPBOARD$);&#10;" description="xdd" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIPBOARD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
