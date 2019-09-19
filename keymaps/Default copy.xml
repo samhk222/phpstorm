@@ -41,9 +41,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl j" />
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
-  <action id="EditorMoveUpAndScrollWithSelection">
-    <keyboard-shortcut first-keystroke="alt up" />
-  </action>
   <action id="EditorSelectWord" />
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
