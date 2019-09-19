@@ -109,6 +109,9 @@
   <action id="Tool_External Tools_phpcs">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
