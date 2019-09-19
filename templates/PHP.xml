@@ -34,4 +34,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="xforeach" value="foreach ($VAR$ as $key =&gt; $value){&#10;    $CURSOR$&#10;}" description="xforeach" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

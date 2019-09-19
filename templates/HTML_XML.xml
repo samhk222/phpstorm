@@ -1,0 +1,12 @@
+<templateSet group="HTML/XML">
+  <template name="bbutton" value="&lt;input type='$TYPE$' name='$FIELD$' id='$FIELD$' class='btn btn-default' value='Enviar' /&gt;" description="BOOTSTRAP - Button" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="button" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
