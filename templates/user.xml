@@ -33,4 +33,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="xpre" value="echo '&lt;pre&gt;';&#10;print_r($VAR$);&#10;echo '&lt;/pre&gt;';" description="xpre" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
