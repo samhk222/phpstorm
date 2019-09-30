@@ -1,6 +1,7 @@
 <keymap version="1" name="Default copy" parent="Default for XWin">
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="b" />
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl dead_grave" />
@@ -25,6 +26,7 @@
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="Diff.ShowDiff" />
+  <action id="EditSource" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
