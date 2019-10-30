@@ -41,4 +41,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="xphp" value="&lt;?php&#10;$CURSOR$&#10;?&gt;" description="xphp" toReformat="false" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
