@@ -1,19 +1,9 @@
 <templateSet group="user">
-  <template name="mdurl" value="[$DESCRIPTION$]($FILE$)" description="URL para Markdown" toReformat="true" toShortenFQNames="true">
-    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="mdurl" value="[$DESCRIPTION$]($URL$)" description="URL para Markdown" toReformat="true" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="Descrição" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="URL" alwaysStopAt="true" />
     <context>
-      <option name="CSS" value="false" />
-      <option name="ECMAScript6" value="false" />
-      <option name="HTML" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSON" value="false" />
       <option name="OTHER" value="true" />
-      <option name="PHP" value="false" />
-      <option name="SHELL_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="Vue" value="false" />
-      <option name="XML" value="false" />
     </context>
   </template>
   <template name="bbootstrap" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot;&gt;&#10;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#10;    &lt;!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --&gt;&#10;    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;&#10;&#10;    &lt;!-- Bootstrap --&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&gt;&#10;&#10;    &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;&#10;    &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;&#10;    &lt;!--[if lt IE 9]&gt;&#10;      &lt;script src=&quot;https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js&quot;&gt;&lt;/script&gt;&#10;      &lt;script src=&quot;https://oss.maxcdn.com/respond/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;&#10;    &lt;![endif]--&gt;&#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;    &lt;h1&gt;Hello, world!&lt;/h1&gt;&#10;&#10;    &lt;!-- jQuery (necessary for Bootstrap's JavaScript plugins) --&gt;&#10;    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&quot;&gt;&lt;/script&gt;&#10;    &lt;!-- Include all compiled plugins (below), or include individual files as needed --&gt;&#10;    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&quot; integrity=&quot;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;" description="Insere um template bootstrap" toReformat="false" toShortenFQNames="true">
