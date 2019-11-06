@@ -50,4 +50,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="pwhile" value="$sql = &quot;select * from $TBL$ where id = :$ID$ &quot;;&#10;$stmt = DB::prepare($sql);&#10;$stmt-&gt;bindValue(':$ID$', $id ,PDO::PARAM_$KIND$);&#10;$stmt-&gt;execute();&#10;$rows = $stmt-&gt;fetchAll();&#10;&#10;if ($rows) {&#10;&#10;}&#10;&#10;while ($rows) {&#10;&#10;}" description="pwhile" toReformat="false" toShortenFQNames="true">
+    <variable name="TBL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="KIND" expression="" defaultValue="INT" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
