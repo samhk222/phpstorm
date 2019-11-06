@@ -44,4 +44,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="xwhile" value="$sql = &quot;select * from $TABLE$&quot;;&#10;$res = mysql_query($sql) or die ($sql . mysql_error());&#10;while($linha = mysql_fetch_array($res)) {&#10;    echo '&lt;pre&gt;';&#10;    print_r($linha);&#10;    echo '&lt;/pre&gt;';&#10;}" description="xwhile" toReformat="false" toShortenFQNames="true">
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
