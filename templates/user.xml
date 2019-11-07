@@ -54,4 +54,11 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="xhidden" value="&lt;input type=&quot;hidden&quot; name=&quot;$VAR1$&quot; id=&quot;$VAR1$&quot; value=&quot;$VAR2$&quot;&gt;" description="xhidden" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
