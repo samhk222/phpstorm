@@ -11,7 +11,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="xrow" value="&lt;div class='col-md-8'&gt;&#10;    &lt;label for='$FIELD$'&gt;$FIELD$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;$FIELD$&quot; name=&quot;$FIELD$&quot; value=&quot;&quot;/&gt;&#10;&lt;/div&gt;" description="Bootstrap row" toReformat="false" toShortenFQNames="true">
+  <template name="xcol" value="&lt;div class='col-md-8'&gt;&#10;    &lt;label for='$FIELD$'&gt;$FIELD$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;$FIELD$&quot; name=&quot;$FIELD$&quot; value=&quot;&quot;/&gt;&#10;&lt;/div&gt;" description="xcol" toReformat="false" toShortenFQNames="true">
     <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
@@ -46,6 +46,12 @@
     <variable name="KIND" expression="" defaultValue="INT" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="xrow" value="&lt;div class=&quot;row mb-2&quot;&gt;&#10;$FIELD$&#10;&lt;/div&gt;" description="xrow" toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
     </context>
   </template>
 </templateSet>
