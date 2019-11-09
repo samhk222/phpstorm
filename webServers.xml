@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dd2baa26-05b9-4520-958d-e044b1c5949c" name="Dorse" url="http://0.0.0.0:8072/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
