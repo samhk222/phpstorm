@@ -61,4 +61,18 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="xdiv" value="----------------" description="xdiv" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log(&quot;&quot;,$FIELD$);" description="clog" toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
