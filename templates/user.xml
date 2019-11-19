@@ -75,4 +75,11 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="xdump" value="dump($ASPAS$ $FIELD$ $ASPAS$)" description="xdump" toReformat="false" toShortenFQNames="true">
+    <variable name="ASPAS" expression="\&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
