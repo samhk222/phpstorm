@@ -81,9 +81,6 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="MoveStatementDown" />
-  <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="ctrl equals" second-keystroke="equals" />
-  </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="QuickJavaDoc">
