@@ -11,6 +11,9 @@
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -25,6 +28,8 @@
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff" />
   <action id="EditSource" />
   <action id="EditorCloneCaretAbove">
@@ -54,6 +59,9 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -81,8 +89,10 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="MoveStatementDown" />
+  <action id="NextTab" />
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
+  <action id="PreviousTab" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
   </action>
