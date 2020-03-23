@@ -5,5 +5,9 @@
       <action id="ReformatCode" />
       <action id="SaveAll" />
     </macro>
+    <macro name="format file on save">
+      <action id="ReformatCode" />
+      <action id="SaveAll" />
+    </macro>
   </component>
 </application>
