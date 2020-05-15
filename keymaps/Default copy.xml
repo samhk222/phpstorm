@@ -128,6 +128,9 @@
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+  </action>
   <action id="Tool_External Tools_phpcs">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
