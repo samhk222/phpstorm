@@ -22,8 +22,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="xroute" value="Route::get('/sam', function(){&#10;    $DEFINICOES$&#10;});" description="Rota dummy" toReformat="false" toShortenFQNames="true">
-    <variable name="DEFINICOES" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="xroute" value="Route::get('/sam', function(){&#10;    $model = \App\Models\$MODEL$::find($ID$);&#10;    dd($model);&#10;    &#10;});" description="Rota dummy" toReformat="false" toShortenFQNames="true">
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
