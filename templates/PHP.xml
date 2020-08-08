@@ -53,4 +53,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="xmigration" value="        Schema::table('$TABELA$', function (Blueprint $table) {&#10;            $table-&gt;unsignedInteger('tipo_servico_id')-&gt;after('boleto_id')-&gt;default(1);&#10;            $table-&gt;index([&quot;tipo_servico_id&quot;]);&#10;            $table-&gt;foreign('tipo_servico_id')&#10;                -&gt;references('id')-&gt;on('tipo_servicos')&#10;                -&gt;onDelete('no action')&#10;                -&gt;onUpdate('no action');&#10;        });" description="xmigration" toReformat="false" toShortenFQNames="true">
+    <variable name="TABELA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
