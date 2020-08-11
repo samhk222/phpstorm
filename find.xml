@@ -5,6 +5,7 @@
     <option name="searchOverloadedMethods" value="true" />
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -19,5 +20,6 @@
     <mask>*.md</mask>
     <mask>*.vue</mask>
     <mask>*.php</mask>
+    <mask>*.*</mask>
   </component>
 </application>
