@@ -16,6 +16,9 @@
     <mask>*.phtml</mask>
     <mask>*.hphp</mask>
     <mask>*.ctp</mask>
+    <mask>*.md</mask>
+    <mask>*.vue</mask>
+    <mask>*.*</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
   </component>

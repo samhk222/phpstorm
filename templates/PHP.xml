@@ -22,8 +22,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="xroute" value="Route::get('/sam', function(){&#10;    $DEFINICOES$&#10;});" description="Rota dummy" toReformat="false" toShortenFQNames="true">
-    <variable name="DEFINICOES" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="xroute" value="Route::get('/sam', function(){&#10;    $model = \App\Models\$MODEL$::find($ID$);&#10;    dd($model);&#10;    &#10;});" description="Rota dummy" toReformat="false" toShortenFQNames="true">
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
@@ -48,6 +49,18 @@
     </context>
   </template>
   <template name="pwhile" value="$sql = &quot;select * from {$this-&gt;tbl} where id = :termo&quot;;&#10;$stmt = DB::prepare($sql);&#10;$stmt-&gt;bindValue(':termo', $_POST[''], PDO::PARAM_INT);&#10;$stmt-&gt;execute();&#10;$rows = $stmt-&gt;fetchAll();&#10;&#10;if ($rows){&#10;    foreach ($rows as $key =&gt; $linha) {&#10;    }&#10;} else {&#10;  &#10;}" description="pwhile" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="xmigration" value="        Schema::table('$TABELA$', function (Blueprint $table) {&#10;            $table-&gt;unsignedInteger('tipo_servico_id')-&gt;after('boleto_id')-&gt;default(1);&#10;            $table-&gt;index([&quot;tipo_servico_id&quot;]);&#10;            $table-&gt;foreign('tipo_servico_id')&#10;                -&gt;references('id')-&gt;on('tipo_servicos')&#10;                -&gt;onDelete('no action')&#10;                -&gt;onUpdate('no action');&#10;        });" description="xmigration" toReformat="false" toShortenFQNames="true">
+    <variable name="TABELA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="xscheme" value="        Schema::$TIPO$('users', function (Blueprint $table) {&#10;            $table-&gt;increments('id');&#10;            $table-&gt;string('name');&#10;            $table-&gt;timestamps();&#10;            $table-&gt;softDelete();&#10;&#10;            $table&#10;                -&gt;unsignedInteger('user_id')&#10;                -&gt;after('address_id')&#10;                -&gt;index();&#10;&#10;            $table&#10;                -&gt;foreign('user_id')&#10;                -&gt;references('id')-&gt;on('users')&#10;                -&gt;onDelete('no action')&#10;                -&gt;onUpdate('no action');&#10;        });&#10;            &#10;        Schema::table('addresses', function (Blueprint $table) {&#10;            $table-&gt;dropForeign('fk_addresses_companies1_idx');&#10;            $table-&gt;dropColumn('company_id');&#10;        });&#10;        &#10;        Artisan::call('db:seed', [&#10;            '--class' =&gt; UsersTableSeeder::class,&#10;            '--force' =&gt; true,&#10;        ]);" description="xscheme" toReformat="false" toShortenFQNames="true">
+    <variable name="TIPO" expression="" defaultValue="create|table" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>

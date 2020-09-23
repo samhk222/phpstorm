@@ -1,0 +1,7 @@
+<templateSet group="Vuexy">
+  <template name="vuexyAlert" value="&lt;vs-alert title=&quot;Lorem ipsum dolor sit amet&quot; color=&quot;rgb(231, 154, 23)&quot; active=&quot;true&quot; class=&quot;mt-5 text-warning&quot;&gt;&#10;    Chupa chups topping bonbon. Jelly-o toffee I love. Sweet I love wafer I love wafer.&#10;&lt;/vs-alert&gt;" description="vs-alert" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
