@@ -113,6 +113,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt s" />
     <keyboard-shortcut first-keystroke="ctrl f12" />
   </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="s" />
+  </action>
   <action id="ScrollTreeToCenter" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl p" />
