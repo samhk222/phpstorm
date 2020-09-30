@@ -65,4 +65,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="pinsert" value="$stmt = DB::prepare(&quot;INSERT INTO eua_balance(eua_financeiro_status_id, eua_currency_id, eua_categoria_id, value, dolar_fechamento, description, dt_pagamento) values (:eua_financeiro_status_id, :eua_currency_id, :eua_categoria_id, :value, :dolar_fechamento, :description, :dt_pagamento)&quot;);&#10;&#10;        $stmt-&gt;bindValue(&quot;:eua_financeiro_status_id&quot;, $data['eua_financeiro_status_id'], PDO::PARAM_INT);&#10;        $stmt-&gt;bindValue(&quot;:eua_currency_id&quot;, $data['eua_currency_id'], PDO::PARAM_INT);&#10;        $stmt-&gt;bindValue(&quot;:eua_categoria_id&quot;, $data['eua_category_id'], PDO::PARAM_INT);&#10;        $stmt-&gt;bindValue(&quot;:value&quot;, $data['valor'], PDO::PARAM_STR);&#10;        $stmt-&gt;bindValue(&quot;:dolar_fechamento&quot;, $data['dolar_fechamento'], PDO::PARAM_STR);&#10;        $stmt-&gt;bindValue(&quot;:description&quot;, $data['descricao'], PDO::PARAM_STR);&#10;        $stmt-&gt;bindValue(&quot;:dt_pagamento&quot;, $data['date'], PDO::PARAM_STR);&#10;&#10;        $stmt-&gt;execute();" description="pinsert" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
