@@ -97,6 +97,9 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="MoveStatementDown" />
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="i" />
+  </action>
   <action id="NextTab" />
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
