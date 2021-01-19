@@ -75,4 +75,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="xdefine" value="/**&#10;@return $this&#10;*/&#10;public function define$MODEL$($PARAM$)&#10;{&#10;    $this-&gt;$PARAM$ = (new $MODEL$Repository())-&gt;find($PARAM$);&#10;    return $this;&#10;}" description="xdefine" toReformat="false" toShortenFQNames="true">
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
