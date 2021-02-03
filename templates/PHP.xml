@@ -1,6 +1,6 @@
 <templateSet group="PHP">
-  <template name="xlog" value="\Log::addWarning(&quot;$Name$: &quot;, $Name$);&#10;\Log::debug(&quot;$Name$: &quot; .$Name$);" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="xlog" value="\Log::info(sprintf(&quot;%s - %s&quot;, __FILE__, &quot;$CURSOR$: &quot;), $CURSOR$-&gt;toArray());&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="$model-&gt;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
