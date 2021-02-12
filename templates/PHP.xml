@@ -1,6 +1,6 @@
 <templateSet group="PHP">
-  <template name="xlog" value="\Log::info(sprintf(&quot;%s - %s&quot;, __FILE__, &quot;$CURSOR$: &quot;), $CURSOR$-&gt;toArray());&#10;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="CURSOR" expression="" defaultValue="$model-&gt;" alwaysStopAt="true" />
+  <template name="xlog" value="CustomLog::log($this, __METHOD__, &quot;$CURSOR$&quot;, []);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
