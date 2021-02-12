@@ -1,5 +1,5 @@
 <templateSet group="PHP">
-  <template name="xlog" value="CustomLog::log($this, __METHOD__, &quot;$CURSOR$&quot;, []);&#10;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="xlog" value="CustomLog::log(__METHOD__, &quot;$CURSOR$&quot;, []);&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
