@@ -49,6 +49,7 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord" />
   <action id="EditorToggleCase">
@@ -97,6 +98,9 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="MoveStatementDown" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="i" />
   </action>
