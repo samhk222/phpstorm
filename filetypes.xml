@@ -8,6 +8,7 @@
       <mapping pattern="daily" type="PLAIN_TEXT" />
       <mapping ext="fdf" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
