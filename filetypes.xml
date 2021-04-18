@@ -6,8 +6,10 @@
       <mapping pattern="sportjson" type="PLAIN_TEXT" />
       <mapping pattern=".env.blog" type="PLAIN_TEXT" />
       <mapping pattern="daily" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping ext="fdf" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
