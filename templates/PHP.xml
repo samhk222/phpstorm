@@ -48,7 +48,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="pwhile" value="$sql = &quot;select * from {$this-&gt;tbl} where id = :termo&quot;;&#10;$stmt = DB::prepare($sql);&#10;$stmt-&gt;bindValue(':termo', $_POST[''], PDO::PARAM_INT);&#10;$stmt-&gt;execute();&#10;$rows = $stmt-&gt;fetchAll();&#10;&#10;if ($rows){&#10;    foreach ($rows as $key =&gt; $linha) {&#10;    }&#10;} else {&#10;  &#10;}" description="pwhile" toReformat="false" toShortenFQNames="true">
+  <template name="pwhile" value="$sql = &quot;select * from {$this-&gt;tbl} where id = :termo&quot;;&#10;$stmt = DB::prepare($sql);&#10;$stmt-&gt;bindValue(':termo', $_POST[''], PDO::PARAM_INT);&#10;$stmt-&gt;execute();&#10;$rows = $stmt-&gt;fetchAll();&#10;&#10;//foreach ($stmt-&gt;fetchAll() as $linha){&#10;&#10;&#10;if ($rows){&#10;    foreach ($rows as $key =&gt; $linha) {&#10;    }&#10;} else {&#10;  &#10;}" description="pwhile" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
