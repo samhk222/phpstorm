@@ -3,6 +3,7 @@
     <notification groupId="Debugger" shouldLog="false" />
     <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
     <notification groupId="PHP External Quality Tools" displayType="NONE" />
+    <notification groupId="System Messages" shouldLog="false" />
     <notification groupId="Vcs Notifications" shouldLog="false" />
   </component>
 </application>
