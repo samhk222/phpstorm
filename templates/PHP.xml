@@ -99,4 +99,11 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="xcard" value="&lt;div class=&quot;card&quot;&gt;&#10;    &lt;div class=&quot;card-header&quot;&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;card-footer&quot;&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;&#10;" description="xcard" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
