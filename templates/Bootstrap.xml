@@ -1,0 +1,7 @@
+<templateSet group="Bootstrap">
+  <template name="xalert" value="&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;&#10;  This is a primary alert—check it out!&#10;&lt;/div&gt;" description="xalert" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
