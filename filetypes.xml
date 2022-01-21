@@ -16,6 +16,7 @@
       <mapping ext="yml" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="ANSI Aware" />
     </extensionMap>
   </component>
 </application>
