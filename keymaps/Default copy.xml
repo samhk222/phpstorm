@@ -129,6 +129,9 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="ctrl numpad3" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
