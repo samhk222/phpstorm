@@ -1,6 +1,5 @@
 <code_scheme name="Default" version="173">
   <PHPCodeStyleSettings>
-    <option name="ALIGN_ASSIGNMENTS" value="true" />
     <option name="BLANK_LINES_BETWEEN_IMPORTS" value="1" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
@@ -31,6 +30,7 @@
     <option name="FOR_STATEMENT_LPAREN_ON_NEXT_LINE" value="true" />
     <option name="FOR_STATEMENT_RPAREN_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_WRAP" value="5" />
+    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
     <option name="IF_BRACE_FORCE" value="3" />
     <option name="DOWHILE_BRACE_FORCE" value="3" />
