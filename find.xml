@@ -5,7 +5,7 @@
     <option name="searchOverloadedMethods" value="true" />
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ini" />
+    <option name="FILE_MASK" value="*.php" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.inc</mask>
@@ -20,7 +20,7 @@
     <mask>*.js</mask>
     <mask>*.css</mask>
     <mask>*.vue</mask>
-    <mask>*.php</mask>
     <mask>*.ini</mask>
+    <mask>*.php</mask>
   </component>
 </application>
