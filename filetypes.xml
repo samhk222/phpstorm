@@ -1,23 +1,20 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
-      <removed_mapping ext="log" approved="true" type="ANSI Aware" />
-      <mapping pattern=".env.old" type="Native" />
       <mapping pattern="graphs" type="PHP" />
-      <mapping pattern="error_log" type="PLAIN_TEXT" />
-      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
-      <mapping pattern="sportjson" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".env.wallas" type="PLAIN_TEXT" />
-      <mapping pattern=".env.blog" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern=".dockeringore" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="sportjson" type="PLAIN_TEXT" />
+      <mapping pattern=".dockeringore" type="PLAIN_TEXT" />
+      <mapping pattern="error_log" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="daily" type="PLAIN_TEXT" />
+      <mapping pattern=".env.blog" type="PLAIN_TEXT" />
+      <mapping ext="scss" type="PLAIN_TEXT" />
       <mapping ext="fdf" type="PLAIN_TEXT" />
       <mapping ext="yml" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
-      <mapping ext="scss" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="ANSI Aware" />
     </extensionMap>
