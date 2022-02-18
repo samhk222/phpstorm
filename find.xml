@@ -5,6 +5,7 @@
     <option name="searchOverloadedMethods" value="true" />
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.inc</mask>
@@ -16,10 +17,10 @@
     <mask>*.ctp</mask>
     <mask>*.md</mask>
     <mask>*.*</mask>
-    <mask>*.js</mask>
     <mask>*.css</mask>
     <mask>*.vue</mask>
     <mask>*.ini</mask>
     <mask>*.php</mask>
+    <mask>*.js</mask>
   </component>
 </application>
