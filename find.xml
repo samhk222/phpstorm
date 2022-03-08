@@ -17,10 +17,10 @@
     <mask>*.ctp</mask>
     <mask>*.md</mask>
     <mask>*.*</mask>
-    <mask>*.js</mask>
     <mask>*.css</mask>
     <mask>*.vue</mask>
     <mask>*.ini</mask>
+    <mask>*.js</mask>
     <mask>*.php</mask>
   </component>
 </application>
