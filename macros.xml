@@ -9,5 +9,14 @@
       <action id="ReformatCode" />
       <action id="SaveAll" />
     </macro>
+    <macro name="xdebug">
+      <action id="EditorEnter" />
+      <typing text-keycode="52:1;65:0;61:0;49:0;59:0">$a=1;</typing>
+      <action id="ToggleLineBreakpoint" />
+      <action id="EditorEnter" />
+      <action id="Macro.format file on save" />
+      <action id="ReformatCode" />
+      <action id="SaveAll" />
+    </macro>
   </component>
 </application>
