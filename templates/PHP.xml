@@ -116,4 +116,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="xdeclare" value="declare(strict_types=1);" description="xdeclare" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
