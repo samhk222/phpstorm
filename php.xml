@@ -1,6 +1,91 @@
 <application>
   <component name="PhpAutoImport" auto_import_file_scope="true" global_constant_behavior="PREFER_FQN" global_function_behavior="PREFER_FQN" import_on_paste="ALL" />
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="22c5ee65-d80d-4dff-a25c-ec28205097f8" name="Docker" home="docker://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="/usr/bin/php8.1" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="eu.gcr.io/development-262520/ingenious/server:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpInterpretersPhpInfoCache">
+    <phpInfoCache>
+      <interpreter name="Docker">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php8.1" path_separator=":" version="8.1.7">
+          <additional_php_ini>/etc/php/8.1/cli/conf.d/10-mysqlnd.ini, /etc/php/8.1/cli/conf.d/10-opcache.ini, /etc/php/8.1/cli/conf.d/10-pdo.ini, /etc/php/8.1/cli/conf.d/15-xml.ini, /etc/php/8.1/cli/conf.d/20-bcmath.ini, /etc/php/8.1/cli/conf.d/20-calendar.ini, /etc/php/8.1/cli/conf.d/20-ctype.ini, /etc/php/8.1/cli/conf.d/20-curl.ini, /etc/php/8.1/cli/conf.d/20-dom.ini, /etc/php/8.1/cli/conf.d/20-exif.ini, /etc/php/8.1/cli/conf.d/20-ffi.ini, /etc/php/8.1/cli/conf.d/20-fileinfo.ini, /etc/php/8.1/cli/conf.d/20-ftp.ini, /etc/php/8.1/cli/conf.d/20-gd.ini, /etc/php/8.1/cli/conf.d/20-gettext.ini, /etc/php/8.1/cli/conf.d/20-iconv.ini, /etc/php/8.1/cli/conf.d/20-igbinary.ini, /etc/php/8.1/cli/conf.d/20-imagick.ini, /etc/php/8.1/cli/conf.d/20-intl.ini, /etc/php/8.1/cli/conf.d/20-mbstring.ini, /etc/php/8.1/cli/conf.d/20-mongodb.ini, /etc/php/8.1/cli/conf.d/20-mysqli.ini, /etc/php/8.1/cli/conf.d/20-oauth.ini, /etc/php/8.1/cli/conf.d/20-pdftron.ini, /etc/php/8.1/cli/conf.d/20-pdo_mysql.ini, /etc/php/8.1/cli/conf.d/20-phar.ini, /etc/php/8.1/cli/conf.d/20-posix.ini, /etc/php/8.1/cli/conf.d/20-readline.ini, /etc/php/8.1/cli/conf.d/20-redis.ini, /etc/php/8.1/cli/conf.d/20-shmop.ini, /etc/php/8.1/cli/conf.d/20-simplexml.ini, /etc/php/8.1/cli/conf.d/20-sockets.ini, /etc/php/8.1/cli/conf.d/20-sysvmsg.ini, /etc/php/8.1/cli/conf.d/20-sysvsem.ini, /etc/php/8.1/cli/conf.d/20-sysvshm.ini, /etc/php/8.1/cli/conf.d/20-tokenizer.ini, /etc/php/8.1/cli/conf.d/20-xmlreader.ini, /etc/php/8.1/cli/conf.d/20-xmlwriter.ini, /etc/php/8.1/cli/conf.d/20-xsl.ini, /etc/php/8.1/cli/conf.d/20-yaml.ini, /etc/php/8.1/cli/conf.d/20-zip.ini, /etc/php/8.1/cli/conf.d/25-swoole.ini, /etc/php/8.1/cli/conf.d/99-custom.ini, /etc/php/8.1/cli/conf.d/99-dev-01.ini</additional_php_ini>
+          <configuration_file>/etc/php/8.1/cli/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/usr/share/php" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="FFI" />
+            <extension name="OAuth" />
+            <extension name="PDFNetPHP" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
+            <extension name="bcmath" />
+            <extension name="calendar" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="exif" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="gettext" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="igbinary" />
+            <extension name="imagick" />
+            <extension name="intl" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mongodb" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="openssl" />
+            <extension name="pcntl" />
+            <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="redis" />
+            <extension name="session" />
+            <extension name="shmop" />
+            <extension name="sockets" />
+            <extension name="sodium" />
+            <extension name="standard" />
+            <extension name="swoole" />
+            <extension name="sysvmsg" />
+            <extension name="sysvsem" />
+            <extension name="sysvshm" />
+            <extension name="tokenizer" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="yaml" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+    </phpInfoCache>
+  </component>
   <component name="PhpSmartKeysConfiguration">
     <option name="smartFunctionParametersCompletion" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="22c5ee65-d80d-4dff-a25c-ec28205097f8" configuration_file_path="/www/api/phpunit.xml" custom_loader_path="/www/api/vendor/autoload.php" phpunit_phar_path="/www/ingenious/api/vendor/phpunit/phpunit" use_configuration_file="true" />
+    </phpunit_settings>
   </component>
 </application>
