@@ -85,7 +85,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="22c5ee65-d80d-4dff-a25c-ec28205097f8" configuration_file_path="/www/api/phpunit.xml" custom_loader_path="/www/api/vendor/autoload.php" phpunit_phar_path="/www/ingenious/api/vendor/phpunit/phpunit" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="22c5ee65-d80d-4dff-a25c-ec28205097f8" configuration_file_path="/home/icon/www/api/phpunit.xml" custom_loader_path="/home/icon/www/api/vendor/autoload.php" phpunit_phar_path="/www/ingenious/api/vendor/phpunit/phpunit" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
