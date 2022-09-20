@@ -1,6 +1,13 @@
 <application>
   <component name="PhpTestFrameworkVersionCache">
     <tools_cache>
+      <tool tool_name="Codeception">
+        <cache>
+          <versions>
+            <info id="interpreter-22c5ee65-d80d-4dff-a25c-ec28205097f8" version="5.0.0" />
+          </versions>
+        </cache>
+      </tool>
       <tool tool_name="PHPUnit">
         <cache>
           <versions>
