@@ -1,5 +1,5 @@
 <application>
-  <component name="PhpAutoImport" auto_import_file_scope="true" global_constant_behavior="PREFER_FQN" global_function_behavior="PREFER_FQN" import_on_paste="ALL" />
+  <component name="PhpAutoImport" auto_import_file_scope="true" import_on_paste="ALL" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="22c5ee65-d80d-4dff-a25c-ec28205097f8" name="Docker" home="docker://DATA" debugger_id="php.debugger.XDebug">
