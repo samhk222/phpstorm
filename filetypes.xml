@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="Caddyfile" type="AUTO_DETECTED" />
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="Log" />
       <mapping ext="log" type="ANSI Aware" />
     </extensionMap>
