@@ -121,4 +121,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="xmatch" value="$return_value = match ($food) {&#10;    'apple' =&gt; 'This food is an apple',&#10;    'bar' =&gt; 'This food is a bar',&#10;    'cake' =&gt; 'This food is a cake',&#10;};" description="xmatch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
