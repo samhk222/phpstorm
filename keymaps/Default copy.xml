@@ -14,6 +14,7 @@
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt left" />
+    <mouse-shortcut keystroke="button4" />
   </action>
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Rename">
@@ -107,6 +108,7 @@
   <action id="MoveStatementDown" />
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl page_up" />
+    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="i" />
