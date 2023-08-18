@@ -2,7 +2,7 @@
   <component name="LafManager" autodetect="false">
     <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" />
     <lafs-to-previous-schemes>
-      <laf-to-scheme laf="Darcula" scheme="_@user_Blackboard" />
+      <laf-to-scheme laf="Darcula" scheme="_@user_All hallow's eve" />
     </lafs-to-previous-schemes>
   </component>
 </application>
