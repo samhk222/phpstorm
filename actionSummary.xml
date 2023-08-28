@@ -1,34 +1,76 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="$Undo">
-      <i c="1" l="1693225138044" />
+      <i c="3" l="1693227953709" />
+    </e>
+    <e n="ChangesView.Revert">
+      <i c="1" l="1693227558243" />
+    </e>
+    <e n="CloseAllToTheRight">
+      <i c="1" l="1693226941421" />
     </e>
     <e n="CommentByLineComment">
       <i c="2" l="1693225138941" />
     </e>
     <e n="EditorBackSpace">
-      <i c="4" l="1693225079081" />
+      <i c="10" l="1693227521507" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="2" l="1693226844154" />
     </e>
     <e n="EditorCopy">
-      <i c="1" l="1693224343145" />
+      <i c="2" l="1693227525468" />
+    </e>
+    <e n="EditorCut">
+      <i c="1" l="1693227950473" />
+    </e>
+    <e n="EditorDeleteLine">
+      <i c="5" l="1693227925668" />
     </e>
     <e n="EditorDeleteToWordStart">
-      <i c="1" l="1693225005962" />
+      <i c="4" l="1693226954053" />
     </e>
     <e n="EditorDown">
-      <i c="4" l="1693225138572" />
+      <i c="6" l="1693227951595" />
+    </e>
+    <e n="EditorDownWithSelection">
+      <i c="2" l="1693227948057" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="1" l="1693227548046" />
+    </e>
+    <e n="EditorEnter">
+      <i c="6" l="1693227954413" />
+    </e>
+    <e n="EditorLeft">
+      <i c="12" l="1693227946865" />
+    </e>
+    <e n="EditorLeftWithSelection">
+      <i c="1" l="1693227949604" />
     </e>
     <e n="EditorLineEnd">
       <i c="1" l="1693225008907" />
     </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="5" l="1693227496144" />
+    </e>
+    <e n="EditorPaste">
+      <i c="7" l="1693227954968" />
+    </e>
     <e n="EditorPreviousWordWithSelection">
-      <i c="2" l="1693225012995" />
+      <i c="5" l="1693227524990" />
+    </e>
+    <e n="EditorTextEnd">
+      <i c="1" l="1693227534866" />
     </e>
     <e n="EditorUp">
-      <i c="5" l="1693225119047" />
+      <i c="8" l="1693227952684" />
+    </e>
+    <e n="ExpandLiveTemplateByTab">
+      <i c="1" l="1693226479730" />
     </e>
     <e n="Find">
-      <i c="2" l="1693225004678" />
+      <i c="3" l="1693225515573" />
     </e>
     <e n="FindInPath">
       <i c="1" l="1693224888045" />
@@ -37,40 +79,70 @@
       <i c="4" l="1693224340769" />
     </e>
     <e n="GotoDeclaration">
-      <i c="2" l="1693224923974" />
+      <i c="11" l="1693227237600" />
     </e>
     <e n="Macro.format file on save">
-      <i c="2" l="1693225139587" />
+      <i c="13" l="1693227955460" />
+    </e>
+    <e n="RecentFiles">
+      <i c="1" l="1693226945577" />
     </e>
     <e n="ReformatCode">
-      <i c="2" l="1693225139826" />
+      <i c="13" l="1693227955490" />
+    </e>
+    <e n="Resume">
+      <i c="1" l="1693227328081" />
     </e>
     <e n="SaveAll">
-      <i c="2" l="1693225140066" />
+      <i c="10" l="1693227957450" />
     </e>
     <e n="SearchEverywhere">
-      <i c="1" l="1693225077085" />
+      <i c="6" l="1693227527479" />
     </e>
     <e n="SettingsEntryPoint">
-      <i c="1" l="1693224131790" />
+      <i c="2" l="1693226931735" />
+    </e>
+    <e n="StepOver">
+      <i c="77" l="1693226907069" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="3" l="1693226863503" />
     </e>
     <e n="WelcomeScreen.OpenDirectoryProject">
       <i c="1" l="1693224107941" />
     </e>
     <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
-      <i c="2" l="1693225008585" />
+      <i c="3" l="1693225517672" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="3" l="1693225517431" />
     </e>
     <e n="com.intellij.ide.plugins.PluginManagerMain$3">
       <i c="1" l="1693224216698" />
     </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1693227516391" />
+    </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="3" l="1693224222220" />
+      <i c="12" l="1693227054012" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="1" l="1693225083922" />
+      <i c="7" l="1693227533723" />
+    </e>
+    <e n="com.intellij.openapi.project.LightEditActionFactory$SimpleLightEditCompatibleAction">
+      <i c="1" l="1693226948034" />
     </e>
     <e n="com.intellij.openapi.updateSettings.impl.UpdateSettingsEntryPointActionProvider$3">
       <i c="1" l="1693224133086" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="8" l="1693226947847" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveUpAction">
+      <i c="1" l="1693226836512" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1693227329730" />
     </e>
   </component>
 </application>
