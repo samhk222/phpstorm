@@ -1,0 +1,32 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+    <option name="overrideLafFontsWasMigrated" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "PhpStorm.InitialConfiguration": "true",
+    "bundled.plugins.list.saved.version": "PS-232.9559.64",
+    "evlsprt3.232": "22",
+    "experimental.ui.first.promotion.localdate": "2023-08-28",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "9.0",
+    "fontSizeToResetEditor": "9.0",
+    "input.method.disabler.muted": "true",
+    "previousColorScheme": "_@user_All hallow's eve",
+    "tasks.pass.word.conversion.enforced": "true"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>
