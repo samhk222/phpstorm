@@ -16,14 +16,19 @@
     <project hash="c63b6d96">
       <feature name="TRAITS" />
       <feature name="SHORT_ARRAY_SYNTAX" />
+      <feature name="CLASS_MEMBER_ACCESS_ON_INSTANTIATION" />
+      <feature name="THIS_IN_CLOSURE" />
       <feature name="CLASS_NAME_CONST" />
       <feature name="RETURN_TYPES" />
       <feature name="SCALAR_TYPE_HINTS" />
+      <feature name="COALESCE_OPERATOR" />
       <feature name="TRAILING_COMMA_IN_FUNCTION_CALL" />
       <feature name="ARROW_FUNCTION_SYNTAX" />
       <feature name="NULLSAFE_DEREFERENCING" />
       <feature name="TRAILING_COMMA_IN_PARAMETER_LIST" />
       <feature name="NAMED_ARGUMENTS" />
+      <feature name="MATCH_EXPRESSION" />
+      <feature name="THROW_EXPRESSION" />
       <feature name="ATTRIBUTES" />
       <feature name="PROPERTY_PROMOTION" />
     </project>
@@ -21504,89 +21509,109 @@
   </component>
   <component name="editorConfigEncodings">
     <file url="file:///www/renewed/procontent/storage/debugbar/X4a8c2c2a7f39a8c4495d875959207abb.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xedf921517725f720184713166766c2bd.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X1e84615e6cd4f44b0fa49a5e53c9a34f.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X30a7a50b02537790b1c7ad1c926c1fb1.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X27fb20f7494e19093560be33197d78bd.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X5de077d12c237dd13404ca7566358deb.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X756308f00d520956eecd7b7cc282ec21.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xa47c8d875d822bff97fb91609b7d2cfc.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X89012f32321ac9b31a0c9a72bb386389.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X8a986830b7bd5e0bd1517243916b0aa4.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xf76afc935b5049efd43d797feefe03e3.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xa25a6ed13c38a5fddae31342ba0eae2e.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xa2d311ce07e1df1baf2a710ffd6f2465.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X5df9631b55b619638fc35516b6fcbc0a.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X8a0a161f9de74c399d338e3696a7e1f5.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X6dc6e1edc1d27c1959a72e829424e608.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xab4e63e6155e68b63bbc65af237e0264.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xf4c252d854e3619d357926989c967bb5.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X5c096f152540ff87ded420eda7a24ed8.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X3e39ad48dfb55eb69d00bcb6647e9008.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X5c0edb7b1a2b019a3eb830eb94334d5e.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xf50a9d26de5a82bf8678d5b72e7dc858.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/database/migrations/2023_03_29_172206_add_preview_url_to_assets_table.php" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X0f7a687f355c7974882bbe578ebc66c7.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X187df7887d816f8cc87f08f835912813.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xb0db0d090c3bc2d38493f7d6f2b2b25a.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X50ff9374743ab73cdee8751d1297277e.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X3eb6c3204cde2e0c6b2716f9299bb96c.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X71b703425cbb1699d567eb298c709540.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X0d0b62413a151aeeda4d591dc5eedc9f.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xf8e3bcea7ba0249516fe7f6edb8b9142.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X7d6bced6318225917829f84356cc3061.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xf528e1aed8626bbd34f6e674a19c3947.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xe2a7f85331f04e676b373fac1e19d09d.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X5322ae51b5fa6290c15874973f99e632.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X33c1492343fc8b2df737c376c9da40ec.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X2f45028b6b04f0f39a11b9c648842235.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/.git/refs/remotes/origin/dependabot" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X039f5d41a1a359514657537790ab259f.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X577fd828ec890ea6f62fcb8341992d74.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X577224e0d2e002f2b9317b7ada4064a0.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X10f09038fb501d5863738c16adf11a50.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X05fbc2caf836b0e49f0dd7da3c3a0c74.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X69f3c2196b06c9bbb387de8307926d91.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xf046021557ccaca415319f9edb789a3f.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X7de38a08ac117d5ce8378921e2843cb1.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X0eb8c4ddee7ea6f5c4d6abed2e6508b9.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X16acb578014bbeddfd57c55ab78a8a14.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xb6afd57f7a4d4f092257176c5dcedc25.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xa0c99d0a8420119942894775c724db32.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xa718014f584a0b3b1405187961533492.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xf45c1795ec7f4b09750e72a3fe05dd54.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X47d9e29395001ab53346f3671811c16c.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X6585f597c179c8539bf446b5d219ed54.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/tests/Feature/OrganizationManagementDeleteUserTest.php" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/.git/refs/heads/PCWEB-18-staging-dev-seed-script" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/.git/refs/remotes/origin/release" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xae383d23a2ec1d95d37a5c28e5dc34fc.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X480688b7b24be600fb281e44dcb3aa65.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xb3fc3127c6aed5380e2602ae80826ef1.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X054cf61d3482eb876b688a811b67e9cf.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xd820e6480b5bfe74264e7069b77f90a0.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xb3367e88565bd42e735b5e58e1b177bc.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xaa5c5d07d4c8e302175db942927945fb.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X023cd904b55e81a8fa72f7746463e06f.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X40de0b372b89f64397fb102c3a9d9836.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X9bfe0bce690ca55605e70dc823bd9492.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X477d4921027efc671b517e3a11d98d5b.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X0884f464e7c83aab682018280275c3d8.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X0ff9f047b17012668cbff96bc9e7f42b.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/.git/ORIG_HEAD" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X90f4fcf99408d8eb058f85e97d3c175c.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X1163726f0fe1fd778d35326fa1ef59a4.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xedf921517725f720184713166766c2bd.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X1e84615e6cd4f44b0fa49a5e53c9a34f.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X27fb20f7494e19093560be33197d78bd.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X30a7a50b02537790b1c7ad1c926c1fb1.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X89012f32321ac9b31a0c9a72bb386389.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X8a986830b7bd5e0bd1517243916b0aa4.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/.git/refs/remotes/origin/PCWEB-109-fs-invitation-system" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X6dc6e1edc1d27c1959a72e829424e608.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/.git/refs/remotes/origin/pcweb-102-create-process-to-allow-users-to-change-orgs" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X5c096f152540ff87ded420eda7a24ed8.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xa6eb7537374bd47db82a6a7d48d30e35.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X5c0edb7b1a2b019a3eb830eb94334d5e.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X187df7887d816f8cc87f08f835912813.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xb0db0d090c3bc2d38493f7d6f2b2b25a.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xb92c703bdc9a16a91f468243df612c4e.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X0d0b62413a151aeeda4d591dc5eedc9f.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X5322ae51b5fa6290c15874973f99e632.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X577fd828ec890ea6f62fcb8341992d74.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/docker-compose.yml" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xf046021557ccaca415319f9edb789a3f.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/X7de38a08ac117d5ce8378921e2843cb1.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xcff81f97b5c8eb0df2f14f6d27f85727.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X5530c272b7e988999a90b44ad7460f82.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X7f416d134640666df774eab891ce04da.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X26df2501da4b96e9e14ac914b132a5c2.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X37d42040a7e985e7339fe9dfa687921e.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xa144089bffd6407a1a4668fb68737222.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xb6afd57f7a4d4f092257176c5dcedc25.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X5ca579ecbd6e85a67b0649878ffc6920.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xc554925fa8d2215be20d16924609d20b.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X08260306520f9484fab266d2ac6e573d.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xa0c99d0a8420119942894775c724db32.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X596ace7898830b52916324b65cf61266.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xa718014f584a0b3b1405187961533492.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xf45c1795ec7f4b09750e72a3fe05dd54.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X47d9e29395001ab53346f3671811c16c.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X6585f597c179c8539bf446b5d219ed54.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/tests/Feature/InertiaMiddlewareTest.php" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X2ce81e4593a77aa4953c3e82477a49df.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xae383d23a2ec1d95d37a5c28e5dc34fc.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X480688b7b24be600fb281e44dcb3aa65.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xb3fc3127c6aed5380e2602ae80826ef1.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xb7f78bd0377a027812e191062d59353c.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xca7a97d7cfa6b459fc973fe890ce72f0.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X2ea19a7cc63e7412b12db82461b5d844.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X054cf61d3482eb876b688a811b67e9cf.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X2e02ee1c89e303cafeb9ef7bb9d88abc.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xd820e6480b5bfe74264e7069b77f90a0.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xb3367e88565bd42e735b5e58e1b177bc.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X6c1d8ea99de73e51c00a98e21e2a4a1b.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X3d7cf871e64ef801d3220c48d0ce0e00.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X823ca355156f5fc0afb3548295a01262.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xc12053824400a9d4729f54127542668b.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/Xaa5c5d07d4c8e302175db942927945fb.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X24b2e40d5863ccf610426b063f04bd41.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X023cd904b55e81a8fa72f7746463e06f.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X47eed7f31abb18e632e66cf80a8510fb.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xfa5753a649db00b6a8435fc97efda800.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X40de0b372b89f64397fb102c3a9d9836.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X9bfe0bce690ca55605e70dc823bd9492.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/.git/refs/remotes/origin/pcweb-94-release" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/Xc156f74caf5ba6e6fb34886771dc3e09.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X477d4921027efc671b517e3a11d98d5b.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X0884f464e7c83aab682018280275c3d8.json" charset="utf-8" />
+    <file url="file:///www/renewed/procontent/storage/debugbar/Xbf8fd934e67ba31f03ed2e51d99d78b9.json" charset="utf-8" />
     <file url="file:///www/renewed/procontent/storage/debugbar/X9d38957fac1c188fca7274e53d6cca4b.json" charset="utf-8" />
-    <file url="file:///www/renewed/procontent/storage/debugbar/X90f4fcf99408d8eb058f85e97d3c175c.json" charset="utf-8" />
   </component>
 </application>
